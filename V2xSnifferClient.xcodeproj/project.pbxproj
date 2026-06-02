@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		FACF31F62FC1A0B800DBC789 /* V2xSnifferClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = V2xSnifferClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACF32342FC1BBD100DBC789 /* V2XMacSniffer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = V2XMacSniffer.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -41,6 +42,13 @@
 			isa = PBXGroup;
 			children = (
 				FACF31F62FC1A0B800DBC789 /* V2xSnifferClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACF32362FC1BBD100DBC789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +105,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FACF31F72FC1A0B800DBC789 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FACF32362FC1BBD100DBC789 /* Products */;
+					ProjectRef = FACF32342FC1BBD100DBC789 /* V2XMacSniffer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FACF31F52FC1A0B800DBC789 /* V2xSnifferClient */,
