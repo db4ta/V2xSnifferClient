@@ -11,9 +11,22 @@
 		FACF32342FC1BBD100DBC789 /* V2XMacSniffer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = V2XMacSniffer.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FA2A8D992FCF4E1500873779 /* Exceptions for "V2xSnifferClient" folder in "V2xSnifferClient" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FACF31F52FC1A0B800DBC789 /* V2xSnifferClient */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		FACF31F82FC1A0B800DBC789 /* V2xSnifferClient */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FA2A8D992FCF4E1500873779 /* Exceptions for "V2xSnifferClient" folder in "V2xSnifferClient" target */,
+			);
 			path = V2xSnifferClient;
 			sourceTree = "<group>";
 		};
@@ -270,6 +283,10 @@
 				DEVELOPMENT_TEAM = 7UQ8M3T235;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = V2xSnifferClient/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Die App benötigt GPS, um Ihre Position auf der C-ITS Karte anzuzeigen.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Die App benötigt GPS, um Ihre Position auf der C-ITS Karte anzuzeigen.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +319,10 @@
 				DEVELOPMENT_TEAM = 7UQ8M3T235;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = V2xSnifferClient/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Die App benötigt GPS, um Ihre Position auf der C-ITS Karte anzuzeigen.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Die App benötigt GPS, um Ihre Position auf der C-ITS Karte anzuzeigen.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
